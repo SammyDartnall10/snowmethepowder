@@ -4,6 +4,7 @@
   "description": "Daiy dose of powder ",
   "main": "index.js",
   "scripts": {
+    "dev": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
