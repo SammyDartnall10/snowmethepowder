@@ -2,6 +2,8 @@
 
 Simple app for checking the snow reports and forecasts for a selection of resorts.
 
+Because I'm too lazy to click more than one link, and the resort snow reports are way better than the forecast sites!
+
 ## Stack:
 
 - Node
