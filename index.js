@@ -1,5 +1,7 @@
 'use strict';
 
+const tester = require('./app/reports');
+
 const Hapi = require('@hapi/hapi');
 
 const init = async () => {
@@ -13,6 +15,14 @@ const init = async () => {
     path: '/',
     handler: (request, h) => {
       return 'Hello World!';
+    },
+  });
+
+  server.route({
+    method: 'GET',
+    path: '/reports',
+    handler: (request, h) => {
+      return tester();
     },
   });
 
